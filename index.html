@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandesh Layout</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./slide.css" />
+  </head>
+  <body>
+
+    <button class="trigger">Click here now to open modal</button>
+    <div class="modal-container">
+      <div class="modal-left">
+
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="D1.jpg" />
+          </div>
+          <div class="mySlides fade">
+            <img src="c1.jpg" />
+          </div>
+          <div class="mySlides fade">
+            <img src="c3.jpg" />
+          </div>
+          <div class="dots" style="text-align: center; margin: -5vh">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <a class="prev" onclick="prevSlide()">&#10094;</a>
+          <a class="next" onclick="showSlides()">&#10095;</a>
+        </div>
+      </div>
+
+
+      <div class="modal-right">
+
+        <span class="close-button">×</span>
+        <div class="modal-head">
+          <p class="green-text date-modal">21-11-2022</p>
+
+          <div class="modal-heading1">
+            <p>Git and GitHub</p>
+          </div>
+          <div class="underline-rectangle"></div>
+        </div>
+        <!-- ------------------------------------------------------------------------ -->
+
+        <p class="green-text about-modal">About:</p>
+        <!-- Enter the body of the modal here -->
+        <div class="body-modal">
+          <p class="paragraph-modal">
+            We are a Technical club of CEC aiming at Realizing the idea and
+            Inspiring the next! We are a Technical club
+            of CEC aiming at Realizing the idea and Inspiring the next!
+          </p>
+        </div>
+        <!-- ------------------------------------------------------------------------ -->
+
+        <div class="">
+          <p class="green-text organized">Organized By:</p>
+          <!-- Add the club name here-->
+          <p class="modal-heading2 club">Coding club</p>
+          <p class="green-text resource">Resource person:</p>
+          <!-- Add the resource persons' name here -->
+          <p class="modal-heading2 person">Karthik Prabhu</p>
+        </div>
+        <!-- ------------------------------------------------------------------------ -->
+
+        <div class="modal-button">
+          <p class="modal-button-asset">Resources</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="slide.js"></script>
+  </body>
+</html>
