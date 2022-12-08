@@ -17,7 +17,7 @@
   box-sizing: border-box;
   position: absolute;
   z-index: -10;
-  background: rgba(31, 61, 119, 0.8);
+  background: rgb(45, 47, 51);
   border-radius: 9px;
 }
 
